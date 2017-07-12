@@ -1,1 +1,2 @@
 # atcodeer_kun
+PDCの部員のatcoderランキングを通知してくれるBot
