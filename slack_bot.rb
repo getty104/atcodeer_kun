@@ -1,5 +1,6 @@
+$LOAD_PATH.unshift File.expand_path('../', __FILE__)
 require 'slack-ruby-client'
-require './atcoder'
+require 'atcoder'
 include AtcoderScrayper
 # 先ほど取得したTOKENをセット
 TOKEN = ENV['SLACK']
