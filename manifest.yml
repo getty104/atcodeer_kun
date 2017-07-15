@@ -1,6 +1,6 @@
 applications:
   - name: atcodeer
-    command: ./bin/hubot --adapter slack
+    command: ruby realtime.rb
     path: .
     instances: 1
     random-route: true
