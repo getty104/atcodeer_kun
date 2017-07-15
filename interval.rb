@@ -11,6 +11,6 @@ end
 client = Slack::Web::Client.new
 # slackに接続できたときの処理
   comment = "FF外から失礼するゾ〜\nお前たち、Atcoderやってそうだから、Atcoderランキングを教えといてやるぜぇ！\n"
-  text = search(["hayabusa104", "yamad","zura", "kshinya", "tossy", "imulan"])
+  text = get_rate_rank(["hayabusa104", "yamad","zura", "kshinya", "tossy", "imulan"])
   client.chat_postMessage channel: '#procon', text: comment, as_user: true
   client.chat_postMessage channel: '#procon', text: text, as_user: true

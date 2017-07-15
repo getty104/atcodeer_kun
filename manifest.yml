@@ -1,0 +1,7 @@
+applications:
+  - name: atcodeer
+    command: ./bin/hubot --adapter slack
+    path: .
+    instances: 1
+    random-route: true
+    memory: 128M

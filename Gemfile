@@ -7,3 +7,5 @@ end
 ruby "2.4.1"
 gem "nokogiri"
 gem "slack-ruby-client"
+gem 'eventmachine'
+gem 'faye-websocket'

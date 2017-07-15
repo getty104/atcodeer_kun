@@ -1,0 +1,1 @@
+[ $(date +%u) = 1 ] && ruby ./interval.rb
