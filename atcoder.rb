@@ -46,6 +46,7 @@ module AtcoderScrayper
 
     data = []
     list.each do |d|
+      d.map!{|dd| dd.delete("\"") }
       name = d[3].split(":")[1].delete("\"")
       data << (d[0]+"\n"+d[3]) if users.include?(name)
     end
