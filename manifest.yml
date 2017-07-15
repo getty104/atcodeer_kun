@@ -1,5 +1,5 @@
 applications:
-  - name: atcodeer
+  - buildpack: https://github.com/cloudfoundry/ruby-buildpack.git
     command: ruby realtime.rb
     path: .
     instances: 1
