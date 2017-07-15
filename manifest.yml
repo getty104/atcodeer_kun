@@ -1,7 +1,0 @@
-applications:
-  - buildpack: https://github.com/cloudfoundry/ruby-buildpack.git
-    command: ruby realtime.rb
-    path: .
-    instances: 1
-    random-route: true
-    memory: 128M
